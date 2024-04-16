@@ -11,7 +11,14 @@ public class Main {
             System.out.println("2. Buscar libro por autor ");
             System.out.println("3. Mostrar Inventario");
             System.out.println("4. Agregar libro");
+            System.out.println("5. Devolver libro");
+            System.out.println("6. Salir\n");
             op = sc.nextInt();
+
+            switch (op) {
+                case 1:
+
+            }
         }
     }
 }
