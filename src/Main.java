@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+
 import java.util.Scanner;
 
 public class Main {
@@ -40,8 +39,8 @@ public class Main {
                         System.out.println("No se encontró ningún libro del autor ingresado.");
                     }
                     break;
-                    /*
-                case 3:
+                /*
+                    case 3:
                     System.out.print("Ingrese el ISBN del libro: ");
                     String isbn = sc.next();
                     System.out.print("Ingrese el título del libro: ");
