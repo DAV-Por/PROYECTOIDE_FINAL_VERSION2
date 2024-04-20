@@ -12,8 +12,8 @@ public class Main {
          System.out.println("* Bienvenido/a *\n****************\n");
          System.out.println("1. Buscar libro por titulo ");
          System.out.println("2. Buscar libro por autor ");
-         System.out.println("3. Mostrar Inventario");
-         System.out.println("4. Agregar libro");
+         System.out.println("3. Agregar libro");
+         System.out.println("4. Ver inventario");
          System.out.println("5. Pedir préstamo");
          System.out.println("6. Devolver préstamo");
          System.out.println("7. Salir\n");
@@ -86,7 +86,9 @@ public class Main {
                  }else
                      System.out.println("No se pudo realizar la devolución. Verifique que el libro esté prestado.");
                 break;
+                case 7:
+                    System.out.println("Adios");
          }
-        }while (op != 5);
+        }while (op != 7);
     }
 }
