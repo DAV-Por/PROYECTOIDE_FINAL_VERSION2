@@ -1,11 +1,11 @@
 public class  Libro {
-    String Titulo;
-    String Autor;
-    String ISBN;
-    String Editorial;
-    int Fecha;
-    double Precio;
-    boolean libroPrestado = false;
+    private String Titulo;
+    private String Autor;
+    private String ISBN;
+    private String Editorial;
+    private int Fecha;
+    private double Precio;
+    private boolean prestamoLibro;
 
     public Libro(){
 
@@ -19,6 +19,8 @@ public class  Libro {
         Fecha = fecha;
         Precio = precio;
     }
+
+
     public String getTitulo() {
         return Titulo;
     }
@@ -67,11 +69,11 @@ public class  Libro {
         Precio = precio;
     }
 
-    public boolean isLibroPrestado() {
-        return libroPrestado;
+    public boolean isPrestamoLibro() {
+        return prestamoLibro;
     }
 
-    public void setLibroPrestado(boolean libroPrestado) {
-        this.libroPrestado = libroPrestado;
+    public void setPrestamoLibro(boolean prestamoLibro) {
+        this.prestamoLibro = prestamoLibro;
     }
 }
